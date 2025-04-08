@@ -39,7 +39,7 @@ body {
 }
 
 .icon-button:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) rotate(45deg);
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
