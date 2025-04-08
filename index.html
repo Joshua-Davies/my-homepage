@@ -3,9 +3,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <script>
+        function handleSearch(event) {
+            event.preventDefault(); // Prevent the default form submission
+            const query = document.querySelector('input[type="text"]').value;
+            const url = `https://duckduckgo.com/?q=${encodeURIComponent(query)}`;
+            window.open(url, '_blank'); // Open the URL in a new tab
+        }
+    </script>
 </head>
 <body>
-    <form>
+    <form onsubmit="handleSearch(event)">
         <input type="text" placeholder="Search Duckduckgo" required>
         <button type="submit">Search</button>
     </form>
