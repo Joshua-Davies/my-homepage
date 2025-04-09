@@ -8,7 +8,7 @@ This is a small website that I created to act as my new tab page, allowing me to
 
 Here’s a preview of what it looks like:
 
-![Screenshot of My Homepage](screenshots/screenshot_1.png)
+![Screenshot of My Homepage](screenshots/Screenshot_1.png)
 
 ## How To Use
 
