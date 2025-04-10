@@ -21,3 +21,8 @@ Contributions are welcome!
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## To Do
+
+- [ ] Add GIF background
+- [ ] Make the icons overflow to the second line. (This will be a bigger issue the more icons I add)
